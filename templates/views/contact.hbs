@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Julia's Pics</title>
+</head>
+
+<body>
+    <div id="main-content">
+        {{>navbar}}
+
+        <main>
+            <h1>Contact me</h1>
+            <div class="about-description">
+                <p>Shoot me a line.</p>
+            </div>
+            <form action="" id="contact">
+                <input type="text" name="firstName" id="contact" placeholder="First Name">
+                <input type="text" name="lastName" id="contact" placeholder="Last Name"><br>
+
+                <input type="email" name="email" id="contact" placeholder="your-email@yadayada.com">
+                <textarea name="message" id="contact" cols="30" rows="10"></textarea> <br>
+
+                <button type="submit">Submit</button>
+            </form>
+
+
+        </main>
+    </div>
+    {{>footer}}
+</body>
+
+</html>
